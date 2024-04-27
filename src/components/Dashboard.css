@@ -1,0 +1,73 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 315px;
+    background-color: #f0f0f0; /* Temporary background color */
+}
+
+h1 {
+    color: #000; /* Ensure the text color contrasts with the background */
+}
+
+.kanban-board {
+    display: flex;
+    justify-content: space-around;
+    width: 900%;
+    max-width: 1190px; /* Adjust based on your design */
+    margin-top: 1px;
+}
+
+.kanban-column {
+    border: 2px solid #150202;
+    border-radius: 5px;
+    padding: 29px;
+    flex: 1; /* Adjust this value to control the size of the columns */
+    min-height: 150px; /* Adjust based on your design */
+    margin: 0 10px;
+    background-color: #f0f0f0; /* Default background color for all columns */
+}
+
+.kanban-column:nth-child(1) {
+    background-color: #FEC7B4; /* Yellow for TO-DO */
+}
+
+.kanban-column:nth-child(2) {
+    background-color: #D7E4C0; /* Light blue for Doing */
+}
+
+.kanban-column:nth-child(3) {
+    background-color: #BBE2EC; /* Light green for Completed */
+}
+
+.kanban-column h2 {
+    margin-bottom: 10px;
+}
+
+
+.kanban-card {
+    position: relative; /* Required for absolute positioning of the icon */
+    background-color: #fafafa;
+    border: 1px solid #1d0a0a;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(239, 223, 223, 0.587);
+}
+
+.more-icon {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    right: 0; /* Align to the right edge */
+    transform: translateY(-45%); /* Adjust vertical positioning */
+    cursor: pointer; /* Optional: changes the cursor to a pointer when hovering over the icon */
+}
+
+.add-icon {
+    position: relative;
+    top: 0px;
+    right: 1px;
+    left: 300px;
+    cursor: pointer; /* Optional: changes the cursor to a pointer when hovering over the icon */
+}

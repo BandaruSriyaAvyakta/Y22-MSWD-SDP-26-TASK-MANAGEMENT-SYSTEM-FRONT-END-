@@ -1,0 +1,17 @@
+/* Login.css */
+.login {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    border: 2px solid #EF7C8E;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 4px; /* Adjust the max-width to decrease the size */
+    margin: auto; /* Center the form */
+}

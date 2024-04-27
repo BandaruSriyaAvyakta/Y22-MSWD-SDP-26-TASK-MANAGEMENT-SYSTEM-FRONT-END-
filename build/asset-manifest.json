@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d891f77.css",
+    "main.js": "/static/js/main.325500a2.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/pro.jpg": "/static/media/pro.458d44ef7736fdfac057.jpg",
+    "static/media/logokl.png": "/static/media/logokl.5583f364033b94cb0d17.png",
+    "index.html": "/index.html",
+    "main.6d891f77.css.map": "/static/css/main.6d891f77.css.map",
+    "main.325500a2.js.map": "/static/js/main.325500a2.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d891f77.css",
+    "static/js/main.325500a2.js"
+  ]
+}

@@ -1,0 +1,41 @@
+.signin-background {
+    background-image: url('./light1.jpg'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the container covers the full viewport height */
+    margin: 0; /* Remove default margins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    border: 0px solid #fefbfb;
+    border-radius: 0px;
+    padding: 30px;
+    max-width: 90%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8); /* Adjusted for transparency */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add a subtle shadow for depth */
+}
+
+/* Adjustments for form elements */
+.MuiTextField-root {
+    margin-bottom: 1rem; /* Add some space between form fields */
+}
+
+.MuiButton-root {
+    margin-top: 1.5rem; /* Increase space above the button */
+    padding: 0.5rem 2rem; /* Adjust padding for a more prominent look */
+}
+
+/* Adjustments for the select component */
+.MuiSelect-root {
+    margin-top: 1rem;
+    width: 100%; /* Ensure the select component takes full width */
+}
+
+/* Adjustments for the alert message */
+.MuiAlert-root {
+    margin-top: 1rem;
+}
